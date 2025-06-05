@@ -272,20 +272,12 @@ div.info{
 
 div.info div.medio{
     width:50%;
-    float: left;
-}
-
-@media (orientation:portrait){
-    
-    div.info div.medio{
-        width: 100%;
-    }
-    
+    float:left;
 }
 
 div.info div.completo{
     width:100%;
-        clear:both;
+    clear:both;
 }
 
 div.completo img, div.medio img{

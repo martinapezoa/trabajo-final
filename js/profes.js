@@ -43,6 +43,13 @@ const profes = [
         porcentajes: 83,
     },
     {
+        profe: "Clarisa Menteguiaga Schmidt",
+        alfabetico: "Menteguiaga Schmidt, Clarisa",
+        guiades: 0,
+        titulades: 0,
+        porcentajes: 0,
+    },
+    {
         profe: "Paola Benavides Bermúdez",
         alfabetico: "Benavides Bermúdez, Paola",
         guiades: 5,
@@ -301,13 +308,6 @@ const profes = [
         titulades: 3,
         porcentajes: 27,
     },
-    {
-        profe: "Clarisa Menteguiaga Schmidt",
-        alfabetico: "Menteguiaga Schmidt, Clarisa",
-        guiades: 0,
-        titulades: 0,
-        porcentajes: 0,
-    },
 ];
 
 async function datos(criterio) {
@@ -504,7 +504,7 @@ async function datos(criterio) {
     }
 }
 
-datos("Gómez Moya, Cristián").catch((error) => console.error(error));
+datos("Menteguiaga Schmidt, Clarisa").catch((error) => console.error(error));
 
 document.querySelectorAll("select")[0].addEventListener("change", (event) => {
     tabla.innerHTML = " ";
@@ -515,11 +515,10 @@ document.querySelectorAll("select")[0].addEventListener("change", (event) => {
     var notas = [];
     var notasPrevias = [];
     datos(event.target.value).catch((error) => console.error(error));
-    if (event.target.value == "Menteguiaga Schmidt, Clarisa") {
+    if(event.target.value == "Gómez Moya, Cristián"){
         document.querySelector("#primera").classList.add("esconde");
-        document.querySelector("#segunda").classList.remove("esconde");
+        document.querySelector("#segunda").classList.remove("esconde")
     } else {
         document.querySelector("#primera").classList.remove("esconde");
-        document.querySelector("#segunda").classList.add("esconde");
-    }
+        document.querySelector("#segunda").classList.add("esconde")    }
 });
