@@ -1,6 +1,8 @@
 <svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 410">
     <title>box_plot_2</title>
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins');
+        
         tspan {
             white-space: pre;
         }
@@ -11,12 +13,12 @@
         .t1 {
             font-size: 11px;
             fill: #000000;
-            font-family: Helvetica, Arial, sans-serif;
+            font-family: Poppins, regular-400;
         }
         .t2 {
             font-size: 11px;
             fill: #000000;
-            font-family: Helvetica, Arial, sans-serif;
+            font-family: Poppins, regular-400;
         }
         .s3 {
             fill: #000000;
