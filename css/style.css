@@ -6,13 +6,13 @@
     --acentoBajo: #E64A19;
     --gris: #546E7A;
     --bs-font-sans-serif:"Poppins", sans-serif;
-    --bd-link-color-rgb: 193, 110, 253;
+    --bd-link-color-rgb: 18, 83, 137;
     --bd-link-hover-color-rgb: 110, 88, 202;
 }
 
 
 .text-bg-primary{
-    background-color:#546E7A !important;
+    background-color:rgb(18, 83, 137) !important;
 }
 
 .text-bg-secondary{

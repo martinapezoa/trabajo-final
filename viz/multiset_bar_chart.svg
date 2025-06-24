@@ -14,15 +14,15 @@
         }
 
         g#aprueban {
-            fill: #189af6;
+            fill: #C12323;
         }
 
         g#industriales {
-            fill: #125389;
+            fill: #7C0000;
         }
 
         g#sinmencion {
-            fill: #00c3ff;
+            fill: #DA4F40;
         }
 
         .rayita {

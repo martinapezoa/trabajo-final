@@ -22,15 +22,15 @@
         }
         .s3 {
             fill: #000000;
-            stroke: #125389;
+            stroke: #7C0000;
             stroke-dasharray: 4;
         }
         .s4 {
             fill: #000000;
-            stroke: #125389;
+            stroke: #7C0000;
         }
         .s5 {
-            fill: #125389;
+            fill: #7C0000;
         }
         .s6 {
             fill: #000000;
@@ -38,37 +38,37 @@
         }
         .s7 {
             fill: #000000;
-            stroke: #125389;
+            stroke: #7C0000;
             stroke-width: 2;
         }
         .s8 {
             fill: #000000;
-            stroke: #189af6;
+            stroke: #C12323;
             stroke-dasharray: 4;
         }
         .s9 {
             fill: #000000;
-            stroke: #189af6;
+            stroke: #C12323;
         }
         .s10 {
-            fill: #189af6;
+            fill: #C12323;
         }
         .s11 {
             fill: #000000;
-            stroke: #189af6;
+            stroke: #C12323;
             stroke-width: 2;
         }
         .s12 {
             fill: #000000;
-            stroke: #00c3ff;
+            stroke: #DA4F40;
             stroke-dasharray: 4;
         }
         .s13 {
             fill: #000000;
-            stroke: #00c3ff;
+            stroke: #DA4F40;
         }
         .s14 {
-            fill: #00c3ff;
+            fill: #DA4F40;
         }
     </style>
     <g id="viz">
